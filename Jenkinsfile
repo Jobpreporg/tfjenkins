@@ -35,7 +35,7 @@ stage('Terraform Init') {
 steps {
 sh '''
 echo "=== Initializing Terraform ==="
-terraform init -input=false
+terraform init
 '''
 }
 }
